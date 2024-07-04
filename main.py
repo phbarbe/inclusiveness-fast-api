@@ -8,7 +8,7 @@ from typing import Union
 import random
 
 #Télécharge le fichier csv contenant les questions du questionnaire
-url = "https://github.com/phbarbe/inclusiveness/raw/main/Questionnaire.csv"
+url = "https://github.com/phbarbe/inclusiveness-fast-api/raw/main/Questionnaire.csv"
 r = requests.get(url)
 
 df_questionnaire = pd.read_csv(url, sep=";")
